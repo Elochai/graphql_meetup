@@ -1,6 +1,6 @@
 # frozen_string_literal: true
 
-describe 'mutation userListAddItem', type: :request do
+describe 'mutation userAddListItem', type: :request do
   let(:user_account) { create :user_account }
 
   let(:payload) { { account_id: user_account.id } }

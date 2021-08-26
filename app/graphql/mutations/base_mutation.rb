@@ -22,6 +22,10 @@ module Mutations
       context[:found_refresh_token]
     end
 
+    def access_token
+      context[:found_access_token]
+    end
+
     def current_user
       context[:current_user]
     end
