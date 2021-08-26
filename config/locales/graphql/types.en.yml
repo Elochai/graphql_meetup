@@ -20,6 +20,18 @@ en:
           csrf: CSRF protection token
           access: Access JWT token
           refresh: JWT token for refreshing access token
+      list_type:
+        desc: List
+        id: ID
+        name: List name
+        items: Items in the list
+      deleted_list_type:
+        desc: Deleted List Type
+        deleted_list_id: Deleted list ID
+      lists_movie_type:
+        desc: List Movie
+        id: Lists Movie ID
+        items: Items in the list
       user_account_type:
         desc: User account
         fields:
@@ -44,6 +56,7 @@ en:
       movie_type:
         desc: Movie type
         fields:
+          id: ID
           title: Movie's title
           budget: Movie's budget
           images: Movie's images
@@ -58,3 +71,23 @@ en:
         fields:
           id: Image id
           filepath: Image file path
+      list_node_type:
+        desc: List Node type
+        nodes: List node
+      favorite_movie_type:
+        desc: Favorite movie type
+        id: Movie ID
+        title: Movie title
+        is_favorite: Is favorite?
+      watchlist_movie_type:
+        desc: Watchlist movie type
+        is_watchlist: In watchlist?
+        id: Movie ID
+        title: Movie title
+      create_list_type:
+        desc: Create list type
+        id: List ID
+        lists: Lists
+      removed_movie_type:
+        desc: Removed List Item Type
+        removed_movie_id: Removed movie ID

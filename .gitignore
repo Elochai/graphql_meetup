@@ -27,3 +27,7 @@
 
 # Ignore gems installed with rbenv gemset
 /.gems/*
+
+!.keep
+*.DS_Store
+/.idea
